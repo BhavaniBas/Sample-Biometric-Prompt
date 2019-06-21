@@ -10,6 +10,7 @@ The answer is no.
 Now, I am using a two ways,
 
 1.FingerPrintManagerCompact with Biometric Prompt Authentication Callback API ('android.hardware.biometrics.BiometricPrompt' that one is deprecated),custom Dialog.
+
 2.Biometric Prompt Authentication Callback API (BiometricPrompt.PromptInfo),Default Dialog.
 
 ### Here are the steps to implement BiometricPrompt Compat:
