@@ -22,8 +22,7 @@ public class MainActivity extends AppCompatActivity implements BiometricCallback
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-
+        
         findViewById(R.id.btn_fringerprint_login).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
